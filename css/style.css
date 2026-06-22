@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #1f2a44;
+  background-color: #0b1220;
   color: #f5f7fa;
   line-height: 1.6;
 }
@@ -17,9 +17,9 @@ img {
 }
 
 header {
-  background-color: #162033;
+  background-color: #111a2b;
   padding: 20px 0;
-  border-bottom: 2px solid #4db6ac;
+  border-bottom: 2px solid #1f8f7a;
 }
 
 .contenedor {
@@ -54,7 +54,7 @@ header {
 }
 
 .menu a:hover {
-  color: #4db6ac;
+  color: #4fd1c5;
 }
 
 .hero {
@@ -82,22 +82,21 @@ header {
 .hero-imagen img {
   max-width: 320px;
   border-radius: 12px;
-  border: 3px solid #4db6ac;
+  border: 3px solid #1f8f7a;
 }
 
 .boton {
   display: inline-block;
   margin-top: 15px;
-  background-color: #4db6ac;
-  color: #162033;
+  background-color: #1f8f7a;
+  color: white;
   padding: 10px 18px;
   text-decoration: none;
   border-radius: 6px;
-  font-weight: bold;
 }
 
 .boton:hover {
-  background-color: #399c93;
+  background-color: #166b5a;
 }
 
 .seccion {
@@ -105,7 +104,7 @@ header {
 }
 
 .fondo-suave {
-  background-color: #162033;
+  background-color: #111a2b;
 }
 
 .tarjetas {
@@ -116,25 +115,25 @@ header {
 }
 
 .tarjeta {
-  background-color: #24324a;
+  background-color: #162033;
   padding: 20px;
   border-radius: 10px;
   flex: 1;
   min-width: 220px;
-  border: 1px solid #31415f;
+  border: 1px solid #24324a;
 }
 
 .correo {
-  color: #4db6ac;
+  color: #4fd1c5;
   text-decoration: none;
   font-weight: bold;
 }
 
 footer {
-  background-color: #111827;
+  background-color: #09101c;
   text-align: center;
   padding: 20px 0;
-  border-top: 1px solid #31415f;
+  border-top: 1px solid #24324a;
 }
 
 @media (max-width: 768px) {
@@ -144,4 +143,93 @@ footer {
     flex-direction: column;
     align-items: flex-start;
   }
+}
+.saludo {
+  font-weight: bold;
+  color: #4fd1c5;
+  margin: 10px 0;
+}
+
+.boton-secundario {
+  margin-left: 10px;
+  background-color: transparent;
+  border: 1px solid #4fd1c5;
+  color: #f5f7fa;
+  cursor: pointer;
+}
+
+.campo,
+.campo-check {
+  margin-bottom: 18px;
+}
+
+.campo label,
+.campo-check label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.campo input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #24324a;
+  font: inherit;
+}
+
+.error {
+  display: block;
+  min-height: 20px;
+  color: #ff6b6b;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.mensaje-exito {
+  margin-top: 12px;
+  color: #4fd1c5;
+  font-weight: bold;
+}
+
+.tema-claro {
+  background-color: #f4f4f4;
+  color: #1a1a1a;
+}
+
+.tema-claro header {
+  background-color: #ffffff;
+  border-bottom: 2px solid #1f8f7a;
+}
+
+.tema-claro .fondo-suave {
+  background-color: #e9ecef;
+}
+
+.tema-claro .tarjeta {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  border: 1px solid #cccccc;
+}
+
+.tema-claro footer {
+  background-color: #dfe3e8;
+  color: #1a1a1a;
+}
+
+.tema-claro .menu a {
+  color: #1a1a1a;
+}
+
+.tema-claro .correo {
+  color: #0b6b61;
+}
+
+.tema-claro .boton-secundario {
+  color: #1a1a1a;
+}
+#saludo {
+  font-weight: bold;
+  color: #4fd1c5;
+  margin: 10px 0;
 }
